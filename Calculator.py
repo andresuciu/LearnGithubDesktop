@@ -9,5 +9,11 @@ class Calculator_AS:
     def scadere(self):
         return print(f"Rezultatul scaderii este: {self.a - self.b}")
 
+    def inmultire(self):
+        return print(f"Rezultatul inmultirii este: {self.a * self.b}")
+
+    def impartire(self):
+        return print(f"Rezultatul impartirii este: {self.a / self.b}")
+
 Calculator_AS(2,3).adunare()
 Calculator_AS(2,3).scadere()
