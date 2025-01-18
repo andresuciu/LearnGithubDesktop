@@ -13,7 +13,9 @@ class Calculator_AS:
         return print(f"Rezultatul inmultirii este: {self.a * self.b}")
 
     def impartire(self):
-        return print(f"Rezultatul impartirii este: {self.a / self.b}")
+        return print(f"Rezultatul impartirii este: {self.a // self.b}")
 
 Calculator_AS(2,3).adunare()
-Calculator_AS(2,3).scadere()
+Calculator_AS(6,2).scadere()
+Calculator_AS(2,3).inmultire()
+Calculator_AS(6,2).impartire()
